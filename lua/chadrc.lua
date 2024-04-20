@@ -5,12 +5,13 @@
 local M = {}
 
 M.ui = {
-	theme = "onedark",
+	theme = "monekai",
+  theme_toggle = { "monekai", "github_light" },
 
-	-- hl_override = {
-	-- 	Comment = { italic = true },
-	-- 	["@comment"] = { italic = true },
-	-- },
+	hl_override = {
+		Comment = { italic = true },
+		["@comment"] = { italic = true },
+	},
 }
 
 return M
